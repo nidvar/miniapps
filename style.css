@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+h1{
+    margin:40px;
+    border-bottom:1px solid black;
+    padding:20px;
+}
+h4{
+    margin:20px;
+}
+
+.line{
+    margin:40px;
+    border-bottom:1px solid black;
+    width:80%;
+}
+
+/* App One */
+.a1DiceImage{
+    width:100px;
+    height:100px;
+}
+#diceBox{
+    display:flex;
+    justify-content: center;
+}
+.a1Dice{
+    padding:10px;
+    margin:10px;
+}
+#a1Score{
+    font-weight:bold;
+}
